@@ -1,0 +1,89 @@
+.item-img{
+    height: 250px;
+    width: 250px;
+
+}
+.img-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.cardOfImg{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    height: 470px;
+    width: 320px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;    
+
+}
+.mainCon{
+    background-image: url("https://wallpapers.com/images/featured/pastel-aesthetic-6pgnuy5ocxtm1r29.jpg");
+    height: auto;
+    background-size: cover;
+    width: 100vw;
+    padding: 20px;
+}
+.item-name{
+    font-size: 30px;
+    color: palevioletred;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.heady{
+    text-align: center;
+    font-weight: bold;
+    color:whitesmoke;
+    margin-bottom: 30px;
+}
+.addProductBtn{
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.btnCon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.availableStockBtn{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 70px;
+}
+.increaseStockBtn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 70px;
+}
+.reduceStockBtn{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 70px;
+}
+.item-Cost{
+    font-size: 22px;
+    color:red;
+}
+.btnOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addTocartBtn{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 140px;
+    height: 70px;
+}
+.menuItemCard{
+    height:500px;
+}

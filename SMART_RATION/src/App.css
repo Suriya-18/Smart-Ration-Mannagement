@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-Con{
+  background-image: url("https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg");
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+}
+.small-Con{
+  background-color:  #fbecec; 
+  height:50vh;
+  width: 40vw;
+  border-radius: 16px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+  
+
+}
+.small-Con2{
+  background-color:  #fbecec; 
+  height:95vh;
+  width: 60vw;
+  border-radius: 16px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.btn-Home{
+  width:120px;
+  height: 50px;
+  background-image: linear-gradient(to right,#f82a2a,#fd0303);
+  border-width: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.btn-Home2{
+  width:120px;
+  height: 50px;
+  background-color: white;
+  border-width: none;
+  border-radius: 8px;
+  color: red;
+  border-radius: 8px;
+  font-weight: bold;  
+}
+.heady-Home{
+  font-size: 30px;
+  color: #f82a2a;
+  font-weight: bold;
+  width:30vw;
+}
+.form-control{
+  width:30vw;
+}
+.policy-container {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adjust spacing between checkbox and text */
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.policy-container input {
+  width: 16px;
+  height: 16px;
+}
